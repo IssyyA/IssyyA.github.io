@@ -1,8 +1,8 @@
 /* ==========================================================================
-   Elegant & Beautiful Portfolio Theme - v3.0
+   Elegant & Beautiful Portfolio Theme - Final Version
    ========================================================================== */
 
-/* --- 1. Variables (New Elegant Palette & Fonts) --- */
+/* --- 1. Variables (Elegant Palette & Fonts) --- */
 :root {
     --primary-color: #212529;   /* Deep Charcoal */
     --secondary-color: #495057; /* Muted Slate Gray */
@@ -13,7 +13,7 @@
     --light-text-color: #6c757d;
     --card-bg-color: #ffffff;
     
-    /* New Fonts */
+    /* Fonts */
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Lato', sans-serif;
 }
@@ -278,10 +278,89 @@ nav ul li a:hover::after {
     color: var(--white-color);
 }
 
-/* --- 6. Contact Form --- */
+/* --- 6. Tabular Skills Section (NEW) --- */
+#skills .container {
+    max-width: 1100px;
+}
+
+.skills-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    background-color: var(--card-bg-color);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+}
+
+.skill-column {
+    padding: 0 20px;
+}
+
+.skill-column:not(:last-child) {
+    border-right: 1px solid #e9ecef;
+}
+
+.skill-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.skill-header i {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-right: 15px;
+    width: 40px;
+}
+
+.skill-header h3 {
+    font-family: var(--font-heading);
+    font-size: 1.7rem;
+    color: var(--primary-color);
+}
+
+.skill-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skill-list li {
+    padding: 12px 0;
+    font-size: 1.05rem;
+    color: var(--dark-text-color);
+    border-bottom: 1px solid #f1f3f5;
+    position: relative;
+    padding-left: 25px;
+}
+
+.skill-list li::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.skill-list li:last-child {
+    border-bottom: none;
+}
+
+/* --- 7. Contact Form --- */
+#contact .container {
+    max-width: 800px;
+}
+
 .contact-form {
     max-width: 700px;
     margin: 0 auto;
+    background: var(--card-bg-color);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
 }
 
 .form-group {
@@ -311,7 +390,7 @@ nav ul li a:hover::after {
 .contact-form textarea:focus {
     outline: none;
     border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px rgba(212, 163, 115, 0.25); /* Faint glow using our accent color */
+    box-shadow: 0 0 0 3px rgba(212, 163, 115, 0.25);
 }
 
 .contact-form button.btn {
@@ -324,21 +403,29 @@ nav ul li a:hover::after {
     cursor: pointer;
 }
 
-
-/* --- Footer #7 --- */
+/* --- 8. Footer --- */
 footer {
     background: var(--primary-color);
     color: var(--white-color);
     text-align: center;
-    padding: 30px 0;
-    margin-top: 60px;
+    padding: 40px 0;
+    margin-top: 80px;
 }
 
 footer p {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
-/* --- This was previously #7, now it is #8 --- */
+/* --- 9. Responsive Design --- */
+@media (max-width: 992px) {
+    .skills-table {
+        grid-template-columns: 1fr 1fr;
+    }
+    .skill-column:nth-child(2) {
+        border-right: none;
+    }
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.8rem;
@@ -351,5 +438,17 @@ footer p {
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+
+    .skills-table {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 40px;
+    }
+
+    .skill-column:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+        padding-bottom: 30px;
     }
 }
