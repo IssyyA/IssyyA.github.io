@@ -1,0 +1,352 @@
+/* Project Page Specific Styles */
+.project-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/project-header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.project-header p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.back-btn {
+    display: inline-block;
+    background: transparent;
+    color: #fff;
+    border: 2px solid var(--accent-color);
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+    background: var(--accent-color);
+    color: #fff;
+}
+
+/* Project Navigation */
+.project-nav {
+    background: var(--dark-color);
+    margin-bottom: 40px;
+}
+
+.project-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+
+.project-nav ul li {
+    margin: 0 15px;
+}
+
+.project-nav ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+}
+
+.project-nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+/* Project Sections */
+.project-section {
+    padding: 60px 0;
+}
+
+.dark-section {
+    background: #f5f5f5;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.project-text {
+    flex: 1;
+}
+
+.project-image {
+    flex: 1;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-metrics {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.metric {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.metric h3 {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.metric p {
+    font-weight: 500;
+}
+
+/* Dataset Section */
+.dataset-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.data-model {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.data-model img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.data-tables {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.table-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.table-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Analysis Section */
+.analysis-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.step {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background: var(--accent-color);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 15px;
+}
+
+.step h3 {
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.dax-example {
+    margin-top: 40px;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.code-block {
+    background: #2d2d2d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    margin-top: 20px;
+}
+
+.code-block p {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.dax-keyword {
+    color: #569cd6;
+}
+
+.dax-function {
+    color: #dcdcaa;
+}
+
+/* Insights Section */
+.insights-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.insight-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.insight-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.insight-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.recommendations {
+    margin-top: 40px;
+}
+
+.recommendations h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.recommendations ul {
+    list-style: none;
+}
+
+.recommendations ul li {
+    padding: 10px 0;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.recommendations ul li::before {
+    content: '▹';
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+}
+
+/* Dashboard Section */
+.dashboard-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.dashboard-preview {
+    margin: 30px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-features {
+    margin-top: 40px;
+}
+
+.dashboard-features h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.dashboard-features ul {
+    list-style: none;
+}
+
+.dashboard-features ul li {
+    padding: 10px 0;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.dashboard-features ul li::before {
+    content: '▹';
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+}
+
+/* Project Footer */
+.project-footer {
+    background: var(--dark-color);
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.project-footer p {
+    margin: 10px 0;
+}
+
+.project-footer a {
+    color: var(--accent-color);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .project-content {
+        flex-direction: column;
+    }
+
+    .project-image {
+        margin-top: 30px;
+    }
+
+    .project-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-nav ul li {
+        margin: 10px 0;
+    }
+}
