@@ -1,6 +1,6 @@
 # Precious Andrew - Data Analysis Portfolio
 
-Welcome to my data analysis portfolio! This repository showcases my projects in data visualization, business intelligence, and analytics.
+ This repository showcases my projects in data visualization, business intelligence, and analytics.
 
 ## About This Portfolio
 
