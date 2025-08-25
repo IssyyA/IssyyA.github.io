@@ -436,6 +436,12 @@ footer p {
         text-align: center;
     }
 
+    /* 👇 THIS IS THE NEW RULE TO FIX THE MOBILE VIEW 👇 */
+    #projects .container {
+        padding: 0 5px; /* Adds a little space on the sides */
+    }
+    /* 👆 END OF NEW RULE 👆 */
+
     .projects-grid {
         grid-template-columns: 1fr;
     }
