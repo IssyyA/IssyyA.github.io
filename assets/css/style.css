@@ -1,4 +1,8 @@
-/* --- 1. Variables (Your Color Palette) --- */*
+/* ==========================================================================
+   Modern Portfolio CSS - v2.0
+   ========================================================================== */
+
+/* --- 1. Variables (Your Color Palette) --- */
 :root {
     --primary-color: #2c3e50;   /* Dark Slate Blue */
     --secondary-color: #3498db;  /* Bright Blue */
@@ -126,7 +130,7 @@ nav ul li a:hover {
 
 /* About Section Specifics */
 #about .container {
-    max-width: 900px;
+    max-w: 900px;
     text-align: center;
 }
 
