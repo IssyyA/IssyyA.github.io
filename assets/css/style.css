@@ -278,20 +278,67 @@ nav ul li a:hover::after {
     color: var(--white-color);
 }
 
-/* --- 6. Footer --- */
+/* --- 6. Contact Form --- */
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--dark-text-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(212, 163, 115, 0.25); /* Faint glow using our accent color */
+}
+
+.contact-form button.btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* --- Footer #7 --- */
 footer {
     background: var(--primary-color);
     color: var(--white-color);
     text-align: center;
-    padding: 40px 0;
-    margin-top: 80px;
+    padding: 30px 0;
+    margin-top: 60px;
 }
 
 footer p {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
-/* --- 7. Responsive Design --- */
+/* --- This was previously #7, now it is #8 --- */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.8rem;
