@@ -25,7 +25,7 @@ Examination of electricity generation patterns and CO2 emissions across US state
 ## Skills
 
 - **Data Visualization**: Power BI, Tableau
-- **Data Analysis**: SQL,Excwl, Google sheets
+- **Data Analysis**: SQL,Excel, Google Sheets
 - **Data Modeling**: Power Query, DAX, Star Schema Design
 - **Tools**: Excel, Power BI Desktop, Power BI Service
 
