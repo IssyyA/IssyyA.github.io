@@ -15,17 +15,12 @@ This portfolio demonstrates my skills in:
 ### Healthcare Performance Analysis
 Analysis of patient admissions, billing, and demographics across US hospitals from 2019-2024.
 
-[View Project](projects/healthcare-analysis/)
-
 ### Renewable Energy Consumption (USA)
 Analysis of US renewable energy trends from 1970 to present, by source and sector.
-
-[View Project](projects/renewable-energy/)
 
 ### US Electricity Generation Analysis
 Examination of electricity generation patterns and CO2 emissions across US states.
 
-[View Project](projects/us-electricity/)
 
 ## Skills
 
@@ -33,14 +28,6 @@ Examination of electricity generation patterns and CO2 emissions across US state
 - **Data Analysis**: SQL, Python (Pandas, NumPy), R
 - **Data Modeling**: Power Query, DAX, Star Schema Design
 - **Tools**: Excel, Power BI Desktop, Power BI Service
-
-## Contact
-
-Feel free to reach out if you'd like to discuss any of these projects or potential collaborations:
-
-- Email: your.email@example.com
-- LinkedIn: [linkedin.com/in/yourprofile]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/precious-isioma-andrew-b935a9137/))
-- GitHub: [github.com/yourusername](https://github.com/IssyyA)
 
 ## How to Use This Repository
 
